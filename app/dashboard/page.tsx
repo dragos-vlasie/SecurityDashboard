@@ -5,7 +5,9 @@ import SecurityDashboard from "../components/securityDashboard";
 export default function Dashboard() {
   return (
     <div className="font-sans">
-      <SecurityDashboard />
+        {/* <AuthGuard> */}
+            <SecurityDashboard />
+        {/* </AuthGuard> */}
     </div>
   );
 }
